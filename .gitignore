@@ -10,3 +10,9 @@
 *.lai
 *.la
 *.a
+
+# The Build directory
+bin
+
+# QT User files
+*.user
