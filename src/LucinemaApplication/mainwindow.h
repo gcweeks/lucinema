@@ -5,6 +5,7 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QMenuBar>
+#include "videoplayerwidget.h"
 
 class MainWindow : public QMainWindow
 {
@@ -47,6 +48,9 @@ private:
     QAction *mPtrDeleteQAction;
 
     QAction *mPtrAboutQAction;
+
+    //Widgets
+    VideoPlayerWidget *mPtrVideoPlayerWidget;
 
 private slots:
     void slotOpenActionTriggered();

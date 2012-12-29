@@ -1,15 +1,17 @@
 #include "mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    mPtrVideoPlayerWidget(NULL)
 {
     CreateMenuBar();
-
+    mPtrVideoPlayerWidget = new VideoPlayerWidget(this);
     //Create Main Window layout
     QWidget *central = new QWidget();
     setCentralWidget(central);
 
     mPtrMainQVBoxLayout = new QVBoxLayout();
+    mPtrMainQVBoxLayout->addWidget(mPtrVideoPlayerWidget);
     mPtrTopQHBoxLayout = new QHBoxLayout();
     mPtrBottomQHBoxLayout = new QHBoxLayout();
     centralWidget()->setLayout(mPtrMainQVBoxLayout);
