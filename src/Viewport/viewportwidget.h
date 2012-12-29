@@ -1,9 +1,9 @@
 #ifndef VIEWPORTWIDGET_H
 #define VIEWPORTWIDGET_H
 
-#include <QtGui/QLabel>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QWidget>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QWidget>
 
 class ViewportWidget : public QWidget {
     Q_OBJECT

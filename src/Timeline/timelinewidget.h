@@ -1,9 +1,9 @@
 #ifndef TIMELINEWIDGET_H
 #define TIMELINEWIDGET_H
 
-#include <QtGui/QLabel>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QWidget>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QWidget>
 
 class TimelineWidget : public QWidget {
     Q_OBJECT

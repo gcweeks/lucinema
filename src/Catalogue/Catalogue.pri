@@ -1,5 +1,5 @@
 HEADERS += \
-    cataloguewidget.h
+    Catalogue/cataloguewidget.h
 
 SOURCES += \
-    cataloguewidget.cpp
+    Catalogue/cataloguewidget.cpp

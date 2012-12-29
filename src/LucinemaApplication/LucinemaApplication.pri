@@ -1,8 +1,8 @@
 HEADERS += \
-    lucinemaapplication.h \
-    mainwindow.h
+    LucinemaApplication/lucinemaapplication.h \
+    LucinemaApplication/mainwindow.h
 
 SOURCES += \
-    lucinemaapplication.cpp \
-    main.cpp \
-    mainwindow.cpp
+    LucinemaApplication/lucinemaapplication.cpp \
+    LucinemaApplication/main.cpp \
+    LucinemaApplication/mainwindow.cpp

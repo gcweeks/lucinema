@@ -1,5 +1,5 @@
 HEADERS += \
-    timelinewidget.h
+    Timeline/timelinewidget.h
 
 SOURCES += \
-    timelinewidget.cpp
+    Timeline/timelinewidget.cpp

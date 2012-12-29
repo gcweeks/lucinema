@@ -1,9 +1,9 @@
 #ifndef CATALOGUEWIDGET_H
 #define CATALOGUEWIDGET_H
 
-#include <QtGui/QLabel>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QWidget>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QWidget>
 
 class CatalogueWidget : public QWidget {
     Q_OBJECT

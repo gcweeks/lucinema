@@ -1,5 +1,5 @@
 HEADERS += \
-    viewportwidget.h
+    Viewport/viewportwidget.h
 
 SOURCES += \
-    viewportwidget.cpp
+    Viewport/viewportwidget.cpp

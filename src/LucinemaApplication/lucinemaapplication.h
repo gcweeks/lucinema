@@ -1,7 +1,7 @@
 #ifndef LUCINEMAAPPLICATION_H
 #define LUCINEMAAPPLICATION_H
 
-#include <QtGui/QApplication>
+#include <QApplication>
 
 #include "mainwindow.h"
 #include "../Catalogue/cataloguewidget.h"
