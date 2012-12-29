@@ -1,9 +1,9 @@
 #ifndef VIDEOPLAYERWIDGET_H
 #define VIDEOPLAYERWIDGET_H
 
-#include <QtMultimedia/QMediaPlayer>
+
 #include <QtWidgets/QWidget>
-#include <QtGui/QMovie>
+#include <QtMultimedia/QMediaPlayer>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 
@@ -11,7 +11,6 @@ QT_BEGIN_NAMESPACE
 class QAbstractButton;
 class QSlider;
 QT_END_NAMESPACE
-
 
 class VideoPlayerWidget : public QWidget
 {
@@ -21,7 +20,7 @@ public:
     ~VideoPlayerWidget();
 
 public slots:
-    void slotOpenFile();
+//    void slotOpenFile();
     void slotPlay();
 
 private slots:
@@ -31,9 +30,12 @@ private slots:
     void slotSetPosition(int position);
 
 private:
-    QMediaPlayer mMediaPlayer;
+    QVBoxLayout *mMainVBoxLayout;
+    QHBoxLayout *mControlsHBoxLayout;
+    QMediaPlayer *mMediaPlayer;
     QAbstractButton *mPtrPlayPushButton;
     QSlider *mPtrPositionSlider;
+
 };
 
 #endif // VIDEOPLAYERWIDGET_H

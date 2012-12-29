@@ -5,6 +5,7 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QMenuBar>
+
 #include "videoplayerwidget.h"
 
 class MainWindow : public QMainWindow
