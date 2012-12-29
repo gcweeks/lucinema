@@ -16,15 +16,37 @@ private:
     //Methods
     void CreateMenuBar();
 
-    //Variables
+    //Layouts
     QVBoxLayout *mPtrMainQVBoxLayout;
     QHBoxLayout *mPtrTopQHBoxLayout;
     QHBoxLayout *mPtrBottomQHBoxLayout;
     QVBoxLayout *mPtrLeftQVBoxLayout;
     QVBoxLayout *mPtrRightQVBoxLayout;
+
+    //Menu Bar
     QMenuBar *mPtrMenuBar;
+
+    //Menus
     QMenu *mPtrFileQMenu;
+    QMenu *mPtrEditQMenu;
+    QMenu *mPtrHelpQMenu;
+
+    //Actions
+    QAction *mPtrNewQAction;
     QAction *mPtrOpenQAction;
+    QAction *mPtrSaveQAction;
+    QAction *mPtrSaveAsQAction;
+    QAction *mPtrImportQAction;
+    QAction *mPtrExitQAction;
+
+    QAction *mPtrCopyQAction;
+    QAction *mPtrCutQAction;
+    QAction *mPtrPasteQAction;
+    QAction *mPtrGoToQAction;
+    QAction *mPtrSplitQAction;
+    QAction *mPtrDeleteQAction;
+
+    QAction *mPtrAboutQAction;
 
 private slots:
     void slotOpenActionTriggered();
